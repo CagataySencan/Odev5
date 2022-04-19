@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="477dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="17dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonArti"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="+"
+                android:textColor="@color/yaziRenk"
+                android:textSize="48sp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="7"
+                android:textColor="@color/yaziRenk"
+                android:textSize="48sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="126dp"
+                android:layout_height="95dp"
+                android:text="4"
+                android:textColor="@color/yaziRenk"
+                android:textSize="48sp" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="126dp"
+                android:layout_height="95dp"
+                android:text="1"
+                android:textColor="@color/yaziRenk"
+                android:textSize="48sp" />
+
+            <ImageView
+                android:id="@+id/buttonSil"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/ic_baseline_backspace_24" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonEsittir"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="="
+                android:textColor="@color/yaziRenk"
+                android:textSize="48sp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="8"
+                android:textColor="@color/yaziRenk"
+                android:textSize="48sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="126dp"
+                android:layout_height="95dp"
+                android:text="5"
+                android:textColor="@color/yaziRenk"
+                android:textSize="48sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="126dp"
+                android:layout_height="95dp"
+                android:text="2"
+                android:textColor="@color/yaziRenk"
+                android:textSize="48sp" />
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="126dp"
+                android:layout_height="95dp"
+                android:text="0"
+                android:textColor="@color/yaziRenk"
+                android:textSize="48sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonSifirla"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="C"
+                android:textColor="@color/yaziRenk"
+                android:textSize="48sp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="9"
+                android:textColor="@color/yaziRenk"
+                android:textSize="48sp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="126dp"
+                android:layout_height="95dp"
+                android:text="6"
+                android:textColor="@color/yaziRenk"
+                android:textSize="48sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="126dp"
+                android:layout_height="95dp"
+                android:text="3"
+                android:textColor="@color/yaziRenk"
+                android:textSize="48sp" />
+
+            <Button
+                android:id="@+id/buttonVirgul"
+                android:layout_width="126dp"
+                android:layout_height="95dp"
+                android:text="."
+                android:textColor="@color/yaziRenk"
+                android:textSize="34sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hesap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
